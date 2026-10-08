@@ -19,7 +19,7 @@ st.set_page_config(
 @st.cache_data
 def load_data():
 
-    file_path = "Data/Mobile Sales Data.xlsx"
+    file_path = "Mobile Sales Data.xlsx"
 
     df = pd.read_excel(file_path)
 
